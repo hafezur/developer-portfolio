@@ -5,3 +5,28 @@ body {
 .color {
     color: orangered;
 }
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 3%;
+}
+
+.half-width img {
+    width: 90%;
+}
+
+.link-button {
+    text-decoration: none;
+
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, blue);
+    color: white;
+    font-weight: 700;
+
+
+}
